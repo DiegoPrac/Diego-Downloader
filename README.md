@@ -1,55 +1,72 @@
-# Diego Downloader Website
+# Diego Downloader
 
-Website sederhana untuk memperkenalkan project **Diego Downloader**.
+Diego Downloader adalah aplikasi desktop Windows sederhana untuk membantu proses download dan pengelolaan media dengan tampilan yang mudah digunakan.
 
-Project ini saya buat sebagai landing page untuk aplikasi Diego Downloader versi Windows.
+Project ini dibuat sebagai project pribadi sekaligus latihan pengembangan aplikasi desktop menggunakan C# dan Windows Forms.
 
-## File Project
+## Download
 
-```text
-Diego_Downloader_Web_Student/
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-```
+Versi terbaru:
 
-## Fitur Website
+**Diego Downloader v1.0.0**
 
-- Navbar
-- Hero section
-- Preview tampilan aplikasi
-- Daftar fitur
-- Cara penggunaan
-- Responsible use
-- Download section
-- FAQ
-- Responsive untuk desktop dan mobile
+[Download Diego Downloader for Windows](https://github.com/DiegoPrac/Diego-Downloader/releases/download/v1.0.0/DiegoDownloader_Setup_v1.0.exe)
 
-## Teknologi
+Website:
 
-- HTML
-- CSS
-- JavaScript
+https://diegoprac.github.io/Diego-Downloader/
 
-Website ini dibuat tanpa framework supaya struktur project tetap sederhana dan mudah dipahami.
+## Features
 
-## Status Project
+- Preview judul dan thumbnail sebelum download
+- MP3 128 kbps
+- Video dengan kualitas terbaik yang tersedia
+- Mendukung public link dari YouTube, TikTok, dan Instagram
+- Parallel download
+- Pilih folder penyimpanan
+- Simpan langsung ke flash drive
+- Download progress window
+- Tampilan sederhana dan mudah digunakan
 
-Website masih dalam tahap pengembangan.
+## Requirements
 
-Untuk sekarang tombol download masih menampilkan **Coming Soon** karena installer Windows resmi belum selesai dibuat.
+- Windows 10 / Windows 11 64-bit
+- Koneksi internet
 
-## Rencana Selanjutnya
+Diego Downloader menggunakan yt-dlp dan FFmpeg untuk proses media. Komponen tersebut dapat dipasang ketika dibutuhkan oleh aplikasi.
 
-- Membuat installer aplikasi Windows
-- Menambahkan link download versi release
-- Upload project ke GitHub
-- Deploy website
-- Menambahkan changelog versi aplikasi
+## How to Use
 
-## Catatan
+1. Install Diego Downloader.
+2. Buka aplikasi.
+3. Copy link media yang ingin digunakan.
+4. Paste link ke Diego Downloader.
+5. Periksa preview.
+6. Pilih MP3 atau Video.
+7. Pilih lokasi penyimpanan.
+8. Klik Download.
 
-Diego Downloader ditujukan untuk media yang memang boleh disimpan atau diunduh oleh pengguna.
+## Responsible Use
 
-Konten private atau akses yang membutuhkan bypass login tidak termasuk tujuan aplikasi ini.
+Diego Downloader ditujukan untuk media milik sendiri, public-domain content, creator-authorized downloads, atau media lain yang memang memiliki izin untuk disimpan.
+
+Aplikasi ini tidak dibuat untuk membuka akun privat atau melewati login dan access control.
+
+## Technology
+
+- C#
+- Windows Forms
+- .NET 8
+- yt-dlp
+- FFmpeg
+- Inno Setup
+
+## Current Version
+
+`v1.0.0`
+
+First public release of Diego Downloader.
+
+---
+
+Created by Diego.
